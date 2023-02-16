@@ -1,0 +1,71 @@
+/* Global Styles */
+html {
+	margin: 0%;
+	padding: 0;
+	box-sizing: border-box;
+}
+body { 
+	font: 100% Helvetica, Arial, "sans-serif";
+	line-height: 1.88889;
+	color:#2D2D2E; 
+	margin: 0; 
+	padding: 0;
+	border: #000000;
+	}
+hr {
+  border: none;
+  border-top: 3px solid black;
+  margin: 0;
+}
+/* Headshot Image Formatting*/
+#headshot {
+	border-radius: 60%;
+	width: 200px;
+    height: 200px;
+	object-fit: cover;
+}
+/* Side Bar containing contact information, skills, and portfolio link to website.*/
+.sidebar {
+	float: left;
+	width: 20%;
+	background: #C8C0C8;
+	padding: 3%;
+}
+/* Main page content containing work experience, education, and projects*/
+.mainpage {
+	float: right;
+	width: 64%;
+	padding: 3%;
+} 
+/*Footer Content containing copyright information*/
+.footer {
+	margin-bottom: 0;
+	Width: 100%;
+	bottom: 0;
+	position: fixed;
+	background-color:grey;
+	opacity: 75%;
+	text-align: center;
+	color:white;
+}
+/*Links*/
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:blue;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none;
+	color:purple;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline;
+	color:red;
+	}
+/*Lists Formatting*/
+ul {
+  list-style-type: square;
+}
+
+
