@@ -5,7 +5,7 @@ html {
 	box-sizing: border-box;
 }
 body { 
-	font: 100% Helvetica, Arial, "sans-serif";
+	font: 100% Raleway;
 	line-height: 1.88889;
 	color:#2D2D2E; 
 	margin: 0; 
@@ -17,26 +17,31 @@ hr {
   border-top: 3px solid black;
   margin: 0;
 }
+h2 {
+	font-family: Raleway, bold;
+}
 /* Headshot Image Formatting*/
 #headshot {
-	border-radius: 60%;
 	width: 200px;
-    height: 200px;
+  height: 200px;
 	object-fit: cover;
+	border-radius: 60%;
+	margin-left:10%;
+
 }
 /* Side Bar containing contact information, skills, and portfolio link to website.*/
-.sidebar {
-	float: left;
-	width: 20%;
+.col-md-3{
 	background: #C8C0C8;
 	padding: 3%;
 }
 /* Main page content containing work experience, education, and projects*/
-.mainpage {
-	float: right;
-	width: 64%;
+.col-md-9 {
 	padding: 3%;
 } 
+/* Project row*/
+#projects {
+	padding:3%;
+}
 /*Footer Content containing copyright information*/
 .footer {
 	margin-bottom: 0;
@@ -67,5 +72,3 @@ a:hover, a:focus, a:active {
 ul {
   list-style-type: square;
 }
-
-
